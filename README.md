@@ -1,2 +1,2 @@
-# barbs-pm.github.io
+# http://barbs-pm.github.io
 Portfolio Udacity
