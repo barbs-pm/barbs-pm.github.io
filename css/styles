@@ -1,0 +1,99 @@
+/*DESIGN RESPONSIVO PARA LAPTOPS*/
+
+body {
+	background-color: #F5FFFA;
+	font-family: 'Lato', sans-serif;
+	color: #747784;
+	font-weight: 300;
+	margin-top: 10px; 
+}
+
+.text-muted {
+	margin-top: 30px;
+	text-shadow: 3px 3px 5px #A9A9A9;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.logo {
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.rounded {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+hr {
+    color: #747784;
+    background-color: #747784;
+    height: 2px;
+}
+
+h4 {
+	font-family: 'Pacifico', cursive;
+	text-transform: lowercase;
+	font-size: 30px;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	color: #747784;
+}
+
+/*DESIGN RESPONSIVO PARA CELULAR*/
+
+@media screen and (max-width: 425px){
+	body {
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.title-super {
+		margin-top: 5px;
+		font-size: 40px;
+	}
+
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+
+	h4, h1, h2, h3 {
+		text-align: center;
+		margin-top: 8px;
+	}
+
+	.space {
+		margin-top: 30px;
+	}
+}
+
+/*DESIGN RESPONSIVO PARA TABLET*/
+
+@media (min-device-width: 768px) and (max-device-width: 1280px) {
+	body {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		width: 120px;
+		height: 120px;
+		margin-top: 20px;
+	}
+
+	.title-super {
+		margin-top: 20px;
+		font-size: 40px;
+	}
+}
